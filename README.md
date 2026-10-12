@@ -16,4 +16,18 @@ The Windows installer isn't code-signed yet. If SmartScreen warns, click **More 
 
 **Updates.** Downiverse checks this page for new versions and installs them when you agree (Settings → About). Every update is signed, and the app refuses files without a valid signature.
 
+## ติดตั้ง Downiverse และส่วนขยายเบราว์เซอร์ (ภาษาไทย)
+
+**ตัวแอป (Windows):** โหลด `Downiverse_<เวอร์ชัน>_x64-setup.exe` จาก[หน้าเวอร์ชันล่าสุด](https://github.com/itsnotthetim/downiverse-releases/releases/latest) แล้วเปิดไฟล์ ถ้า Windows ขึ้นเตือน (SmartScreen) ให้กด **More info → Run anyway**
+
+**ส่วนขยายสำหรับ Chrome, Edge, Brave** (ยังไม่อยู่ใน Chrome Web Store จึงติดตั้งแบบ Developer mode):
+1. เปิด Downiverse → **Settings → Browser extension → Prepare extension** แอปจะเตรียมโฟลเดอร์ `Downiverse extension\Chrome` ในโฟลเดอร์ผู้ใช้ให้ และแสดงขั้นตอนพร้อมปุ่มคัดลอก
+2. ในเบราว์เซอร์ เปิด `chrome://extensions` (Edge: `edge://extensions`, Brave: `brave://extensions`)
+3. เปิด **Developer mode** (มุมขวาบน)
+4. กด **Load unpacked** แล้วเลือกโฟลเดอร์จากข้อ 1 (วาง path ที่คัดลอกมาได้)
+5. กดไอคอน Downiverse ในแถบเครื่องมือ (ปักหมุดได้จากเมนูรูปจิ๊กซอว์) → **Connect** แล้วกด **Allow** ในแอป Downiverse
+
+ห้ามลบโฟลเดอร์ส่วนขยาย เพราะส่วนขยายอยู่ในนั้น เมื่ออัปเดตแอปแล้ว ให้กด **Update files** ในหน้าเดิม แล้วกดปุ่มรีโหลด ↻ ของส่วนขยาย
+จะติดตั้งเองจากไฟล์ zip ก็ได้ ในไฟล์ zip มีวิธีติดตั้งภาษาไทยอยู่แล้ว (`HOW-TO-INSTALL.txt`)
+
 Only download what you're allowed to keep.
